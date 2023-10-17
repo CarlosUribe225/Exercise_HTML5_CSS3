@@ -1,0 +1,37 @@
+@import './colors.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-card {
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 5vh 0;
+}
+.card {
+    width: 80vh;
+    height: auto;
+    margin: auto;
+    padding: 3vh;
+}
+h2 {
+    background-color: grey;
+    width: 100%;
+}
+.card-content {
+    padding: 2vh;
+}
+.card-content img {
+    float: left;
+    height: 15vh;
+    width: 15vh;
+}
+.card-content p {
+    text-align: justify;
+}
