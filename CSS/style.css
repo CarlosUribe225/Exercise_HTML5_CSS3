@@ -10,7 +10,7 @@
     place-items: center;
 }
 
-h1 {
+.grid-card h1 {
     text-align: center;
     margin: 5vh 0;
 }
@@ -20,7 +20,7 @@ h1 {
     margin: auto;
     padding: 3vh;
 }
-h2 {
+.card h2 {
     background-color: grey;
     width: 100%;
 }

@@ -2,13 +2,20 @@
     margin: 0;
     padding: 0;
 }
- body {
-    background-color: blue;
- }
+
+.container {
+    background-color: darksalmon;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+}
 .grid-colors {
     margin: 0 auto;
-    width: 80%;
-    height: 80vh;
+    width: 50%;
+    height: 50vh;
     display: grid;
     grid-template-rows: repeat(4,auto);
     grid-template-columns: repeat(6,auto);
@@ -21,7 +28,8 @@
     grid-row: 1 / 2;
     grid-column: 1 / 7;
     background-color: green;
-    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
 }
 .grid-colors .colors:nth-child(2){
     grid-row: 2 / 3;
@@ -81,6 +89,9 @@
 .color-lime {
     background-color: lime;
 }
+.color-white {
+    background-color: white;
+}
 .group-red-maroon-gray {
     grid-area: 3/4/4/7;
     display: grid;
@@ -95,4 +106,109 @@
 }
 .color-gray {
     background-color: gray;
+}
+
+.content-text {
+    display: grid;
+    place-items: center;
+}
+
+.text {
+    margin: auto;
+}
+.letter:nth-child(1) {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(2) {
+    color: teal;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(3) {
+    color: blue;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(4) {
+    color: navy;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(5) {
+    color: lime;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(6) {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(7) {
+    color: purple;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(8) {
+    color: yellow;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(10) {
+    color: olive;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(11) {
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(12) {
+    color: maroon;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(13) {
+    color: gray;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(14) {
+    color: fuchsia;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(15) {
+    color: green;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(16) {
+    color: aqua;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.letter:nth-child(17) {
+    color: silver;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.5rem;
 }
